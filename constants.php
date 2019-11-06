@@ -54,6 +54,24 @@ if (! defined('PORT_DNS')) {
     define('PORT_DNS', 53);
 }
 
+// 67
+if (! defined('PORT_DHCP_SERVER')) {
+    /**
+     * DHCP IPv4 Server/Relay Agent
+     * @var int
+     */
+    define('PORT_DHCP_SERVER', 67);
+}
+
+// 68
+if (! defined('PORT_DHCP_CLIENT')) {
+    /**
+     * DHCP IPv4 Client
+     * @var int
+     */
+    define('PORT_DHCP_CLIENT', 68);
+}
+
 // 70
 if (! defined('PORT_GOPHER')) {
     /**
@@ -162,6 +180,24 @@ if (! defined('PORT_RSH')) {
     define('PORT_RSH', 514);
 }
 
+// 546
+if (! defined('PORT_DHCP6_CLIENT')) {
+    /**
+     * DHCP IPv6 Client
+     * @var int
+     */
+    define('PORT_DHCP6_CLIENT', 546);
+}
+
+// 547
+if (! defined('PORT_DHCP6_SERVER')) {
+    /**
+     * DHCP IPv6 Server/Relay Agent
+     * @var int
+     */
+    define('PORT_DHCP6_SERVER', 547);
+}
+
 // 587
 if (! defined('PORT_SMTP_MSA')) {
     /**
@@ -169,6 +205,24 @@ if (! defined('PORT_SMTP_MSA')) {
      * @var int
      */
     define('PORT_SMTP_MSA', 587);
+}
+
+// 636
+if (! defined('PORT_LDAPS')) {
+    /**
+     * LDAPS
+     * @var int
+     */
+    define('PORT_LDAPS', 636);
+}
+
+// 666
+if (! defined('PORT_DOOM')) {
+    /**
+     * Doom
+     * @var int
+     */
+    define('PORT_DOOM', 666);
 }
 
 // 989
@@ -243,15 +297,6 @@ if (! defined('PORT_SIPS')) {
     define('PORT_SIPS', 5061);
 }
 
-// 5432
-if (! defined('PORT_POSTGRES')) {
-    /**
-     * PostgresSQL
-     * @var int
-     */
-    define('PORT_POSTGRES', 5432);
-}
-
 // 5222
 if (! defined('PORT_XMPP_C2S')) {
     /**
@@ -277,6 +322,24 @@ if (! defined('PORT_XMPP_S2S')) {
      * @var int
      */
     define('PORT_XMPP_S2S', 5269);
+}
+
+// 5432
+if (! defined('PORT_POSTGRES')) {
+    /**
+     * PostgreSQL
+     * @var int
+     */
+    define('PORT_POSTGRES', 5432);
+}
+
+// 5984
+if (! defined('PORT_COUCHDB')) {
+    /**
+     * CouchDB
+     * @var int
+     */
+    define('PORT_COUCHDB', 5984);
 }
 
 // 6379
@@ -331,4 +394,13 @@ if (! defined('PORT_MEMCACHED')) {
      * @var int
      */
     define('PORT_MEMCACHED', 11211);
+}
+
+// 27017
+if (! defined('PORT_MONGODB')) {
+    /**
+     * MongoDB
+     * @var int
+     */
+    define('PORT_MONGODB', 27017);
 }
