@@ -27,6 +27,15 @@ if (! defined('PORT_SSH')) {
     define('PORT_SSH', 22);
 }
 
+// 23
+if (! defined('PORT_TELNET')) {
+    /**
+     * SSH
+     * @var int
+     */
+    define('PORT_TELNET', 23);
+}
+
 // 25
 if (! defined('PORT_SMTP')) {
     /**
@@ -34,6 +43,24 @@ if (! defined('PORT_SMTP')) {
      * @var int
      */
     define('PORT_SMTP', 25);
+}
+
+// 53
+if (! defined('PORT_DNS')) {
+    /**
+     * DNS
+     * @var int
+     */
+    define('PORT_DNS', 53);
+}
+
+// 70
+if (! defined('PORT_GOPHER')) {
+    /**
+     * Gopher
+     * @var int
+     */
+    define('PORT_GOPHER', 70);
 }
 
 // 80
@@ -63,6 +90,24 @@ if (! defined('PORT_IMAP')) {
     define('PORT_IMAP', 143);
 }
 
+// 161
+if (! defined('PORT_SNMP')) {
+    /**
+     * SNMP
+     * @var int
+     */
+    define('PORT_SNMP', 161);
+}
+
+// 162
+if (! defined('PORT_SNMP_TRAP')) {
+    /**
+     * SNMP TRAP
+     * @var int
+     */
+    define('PORT_SNMP_TRAP', 162);
+}
+
 // 194
 if (! defined('PORT_IRC')) {
     /**
@@ -70,6 +115,15 @@ if (! defined('PORT_IRC')) {
      * @var int
      */
     define('PORT_IRC', 194);
+}
+
+// 389
+if (! defined('PORT_LDAP')) {
+    /**
+     * LDAP
+     * @var int
+     */
+    define('PORT_LDAP', 389);
 }
 
 // 443
@@ -97,6 +151,15 @@ if (! defined('PORT_SMTPS')) {
      * @var int
      */
     define('PORT_SMTPS', 465);
+}
+
+// 514
+if (! defined('PORT_RSH')) {
+    /**
+     * RSH
+     * @var int
+     */
+    define('PORT_RSH', 514);
 }
 
 // 587
@@ -160,6 +223,24 @@ if (! defined('PORT_MYSQL')) {
      * @var int
      */
     define('PORT_MYSQL', 3306);
+}
+
+// 5060
+if (! defined('PORT_SIP')) {
+    /**
+     * SIP
+     * @var int
+     */
+    define('PORT_SIP', 5060);
+}
+
+// 5061
+if (! defined('PORT_SIPS')) {
+    /**
+     * SIPS
+     * @var int
+     */
+    define('PORT_SIPS', 5061);
 }
 
 // 5432

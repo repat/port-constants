@@ -23,14 +23,21 @@ This is a list of all constants defined by this package, along with their values
 | FTP Data               | 20     | `PORT_FTP_DATA`           |
 | FTP Control            | 21     | `PORT_FTP_CTRL`           |
 | SSH                    | 22     | `PORT_SSH`                |
+| Telnet                 | 23     | `PORT_TELNET`             |
 | SMTP                   | 25     | `PORT_SMTP`               |
+| DNS                    | 53     | `PORT_DNS`                |
+| Gopher                 | 70     | `PORT_GOPHER`             |
 | HTTP                   | 80     | `PORT_HTTP`               |
 | POP3                   | 110    | `PORT_POP3`               |
 | IMAP                   | 143    | `PORT_IMAP`               |
+| SNMP                   | 161    | `PORT_SNMP`               |
+| SNMP TRAP              | 162    | `PORT_SNMP_TRAP`          |
 | IRC                    | 194    | `PORT_IRC`                |
+| LDAP                   | 389    | `PORT_LDAP`               |
 | HTTPS                  | 443    | `PORT_HTTPS`              |
 | HTTPS                  | 443    | `PORT_SSL`                |
 | SMTPS                  | 465    | `PORT_SMTPS`              |
+| RSH                    | 514    | `PORT_RSH`                |
 | SMTP MSA               | 587    | `PORT_SMTP_MSA`           |
 | FTPS Data              | 989    | `PORT_FTPS_DATA`          |
 | FTPS Control           | 990    | `PORT_FTPS_CTRL`          |
@@ -38,6 +45,8 @@ This is a list of all constants defined by this package, along with their values
 | POP3S                  | 995    | `PORT_POP3S`              |
 | OpenVPN                | 1194   | `PORT_OPENVPN`            |
 | MySQL/MariaDB          | 3306   | `PORT_MYSQL`              |
+| SIP                    | 5060   | `PORT_SIP`                |
+| SIPS                   | 5061   | `PORT_SIPS`               |
 | PostgreSQL             | 5432   | `PORT_POSTGRES`           |
 | XMPP C2S               | 5222   | `PORT_XMPP_C2S`           |
 | XMPP Legacy SSL        | 5223   | `PORT_XMPP_LEGACY_SSL`    |
