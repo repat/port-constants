@@ -62,7 +62,7 @@ This is a list of all constants defined by this package, along with their values
 * Finish Tests
 
 ## Version
-* Version 0.1.1
+* Version 0.1.2
 
 ## Contact
 #### repat
