@@ -3,7 +3,7 @@
     "description": "A series of constants for working with standardized network ports",
     "type": "library",
     "license": "MIT",
-    "version": "0.1",
+    "version": "0.1.1",
     "authors": [
         {
             "name": "Repat",

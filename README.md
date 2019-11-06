@@ -23,12 +23,19 @@ This is a list of all constants defined by this package, along with their values
 | FTP Data               | 20     | `PORT_FTP_DATA`           |
 | FTP Control            | 21     | `PORT_FTP_CTRL`           |
 | SSH                    | 22     | `PORT_SSH`                |
+| SMTP                   | 25     | `PORT_SMTP`               |
 | HTTP                   | 80     | `PORT_HTTP`               |
+| POP3                   | 110    | `PORT_POP3`               |
+| IMAP                   | 143    | `PORT_IMAP`               |
 | IRC                    | 194    | `PORT_IRC`                |
 | HTTPS                  | 443    | `PORT_HTTPS`              |
 | HTTPS                  | 443    | `PORT_SSL`                |
+| SMTPS                  | 465    | `PORT_SMTPS`              |
+| SMTP MSA               | 587    | `PORT_SMTP_MSA`           |
 | FTPS Data              | 989    | `PORT_FTPS_DATA`          |
 | FTPS Control           | 990    | `PORT_FTPS_CTRL`          |
+| IMAPS                  | 993    | `PORT_IMAPS`              |
+| POP3S                  | 995    | `PORT_POP3S`              |
 | OpenVPN                | 1194   | `PORT_OPENVPN`            |
 | MySQL/MariaDB          | 3306   | `PORT_MYSQL`              |
 | PostgreSQL             | 5432   | `PORT_POSTGRES`           |
@@ -46,7 +53,7 @@ This is a list of all constants defined by this package, along with their values
 * Finish Tests
 
 ## Version
-* Version 0.1
+* Version 0.1.1
 
 ## Contact
 #### repat

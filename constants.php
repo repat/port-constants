@@ -27,6 +27,15 @@ if (! defined('PORT_SSH')) {
     define('PORT_SSH', 22);
 }
 
+// 25
+if (! defined('PORT_SMTP')) {
+    /**
+     * SMTP
+     * @var int
+     */
+    define('PORT_SMTP', 25);
+}
+
 // 80
 if (! defined('PORT_HTTP')) {
     /**
@@ -34,6 +43,24 @@ if (! defined('PORT_HTTP')) {
      * @var int
      */
     define('PORT_HTTP', 80);
+}
+
+// 110
+if (! defined('PORT_POP3')) {
+    /**
+     * POP3
+     * @var int
+     */
+    define('PORT_POP3', 110);
+}
+
+// 143
+if (! defined('PORT_IMAP')) {
+    /**
+     * IMAP
+     * @var int
+     */
+    define('PORT_IMAP', 143);
 }
 
 // 194
@@ -63,6 +90,24 @@ if (! defined('PORT_SSL')) {
     define('PORT_SSL', PORT_HTTPS);
 }
 
+// 465
+if (! defined('PORT_SMTPS')) {
+    /**
+     * SMTPS
+     * @var int
+     */
+    define('PORT_SMTPS', 465);
+}
+
+// 587
+if (! defined('PORT_SMTP_MSA')) {
+    /**
+     * SMTP MSA
+     * @var int
+     */
+    define('PORT_SMTP_MSA', 587);
+}
+
 // 989
 if (! defined('PORT_FTPS_DATA')) {
     /**
@@ -79,6 +124,24 @@ if (! defined('PORT_FTPS_CTRL')) {
      * @var int
      */
     define('PORT_FTPS_CTRL', 990);
+}
+
+// 993
+if (! defined('PORT_IMAPS')) {
+    /**
+     * IMAPS
+     * @var int
+     */
+    define('PORT_IMAPS', 993);
+}
+
+// 995
+if (! defined('PORT_POP3S')) {
+    /**
+     * POP3S
+     * @var int
+     */
+    define('PORT_POP3S', 995);
 }
 
 // 1194
