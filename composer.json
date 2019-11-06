@@ -1,0 +1,33 @@
+{
+    "name": "repat/port-constants",
+    "description": "A series of constants for working with standardized network ports",
+    "type": "library",
+    "license": "MIT",
+    "version": "0.1",
+    "authors": [
+        {
+            "name": "Repat",
+            "email": "repat@repat.de",
+            "homepage": "https://repat.de"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/repat/port-constants/issues",
+        "source": "https://github.com/repat/port-constants"
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    },
+    "autoload": {
+        "files": ["constants.php"]
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true,
+        "platform": {
+            "php": "7.2"
+        }
+    }
+}
